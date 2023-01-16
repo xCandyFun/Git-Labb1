@@ -1,0 +1,38 @@
+cd .\Documents\GitHub\
+mkdir GitLabb1
+git init
+git branch -m main
+New-Item README.md
+git add README.md
+notepad README.md
+git commit -m "Initial commit"
+git branch feature1
+git checkout feature1
+notepad README.md
+git add README.md
+git commit -m "Add dog and change moose to mouse"
+git checkout main
+notepad README.md
+git add README.md
+git commit -m "Change moose to mahmut"
+git merge feature1
+git tag extinct
+git reflog
+git reset --hard (Skriv in hash kode till före merge:en)
+notepad README.md
+git branch feature2
+notepad README.md
+git add README.md
+git commit -m "Uppercase on the names"
+git checkout feature2
+New-Item fix1.txt
+git add fix1.txt
+git commit -a "Add fix1.txt"
+New-Item fix2.txt
+git add fix2.txt
+git commit -a "Add fix2.txt"
+ls
+git checkout main
+ls
+git cherry-pick (commit:ens hash kod)
+notepad fix2.txt
