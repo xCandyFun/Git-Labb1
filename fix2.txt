@@ -44,6 +44,8 @@ notepad .gitignore
 git add .gitignore
 git push
 git tag -a v1.0 -m "Version 1.0"
+git push origin extinct
+git push origin v1.0
 git reflog
 git rebase -i (Skriv in hash koden till en tidigare commit)
 git branch feature3
