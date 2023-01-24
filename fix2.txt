@@ -36,3 +36,15 @@ git checkout main
 ls
 git cherry-pick (commit:ens hash kod)
 notepad fix2.txt
+git add fix2.txt
+git remote add origin https://github.com/xCandyFun/Git-Labb1.git
+git push -u origin main
+New-Item .gitignore
+notepad .gitignore
+git add .gitignore
+git push
+git tag -a v1.0 -m "Version 1.0"
+git reflog
+git rebase -i (Skriv in hash koden till en tidigare commit)
+git branch feature3
+git notepad fix2.txt
