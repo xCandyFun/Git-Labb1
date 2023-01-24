@@ -50,4 +50,3 @@ git reflog
 git rebase -i (Skriv in hash koden till en tidigare commit)
 git branch feature3
 git notepad fix2.txt
-----
