@@ -1,5 +1,5 @@
 *.jar
 out/
-target/
+target/**
 !target/*.html
 
